@@ -113,6 +113,9 @@ h2 {
   .display-animal {
   margin-bottom: 3em;
   }
+  .box-tenencia-responsable {
+    background-size: contain;
+  }
 }
 
 .banner{
