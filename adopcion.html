@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Hay familia para todos | INICIO</title>
+    
+  </head>
+  <body>
+    <!-- El header seria una barra con el logo a la izquierda y el menu con links a la derecha -->
+    <header>
+      <nav class="menu">
+        <div>
+          <img 
+            class="logo mb-5"
+            src="multimedia/images/logo-nuevo.png"
+            width="170"
+            alt="Logo">
+        </div>
+          <ul>
+            <li class="link-menu"><a href="index.html">Inicio</a></li>
+            <li class="link-menu"><a href="/secciones/adopcion.html">En Adopción</a></li>
+            <li class="link-menu"><a href="/secciones/rescatistas.html">Rescatistas</a></li>
+            <li class="link-menu"><a href="/secciones/donar.html"> Donar</a></li>
+            <li class="link-menu"><a href="/secciones/contacto.html">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <h1 class="titulo-seccion d-inline fs-2 bg-success p-1 ms-3 mb-5 rounded">EL ACTO DE ADOPTAR</h1>
+    <section class="adoptar d-md-flex">
+      
+      <p class="texto-adopcion d-flex-column mt-5 mx-4 w-50">
+        Adoptar a un animal es un acto que requiere tanto amor, como paciencia. Al integrar a un nuevo miembro a nuestra familia estamos no solo eligiendo el cachorro que nos pareció mas amoroso o el gato mas lindo, sino que pasamos a ocupar un lugar fundamental en la vida de nuestra <i>ahora</i> mascota. <br> Estar a cargo de un perro o gato es comprometernos tácitamente a garantizar la calidad de vida del mismo.<b> De ahora en más seremos proveedores de refugio, comida, cariño, salud y compañía</b>  para un animalito que, probablemente, al principio desconozca las reglas de nuestro hogar, con sus tiempos y obligaciones, pero, si tenemos la paciencia para hacer que se adapte, a cambio nos entregará su fidelidad y amor incondicional.
+        <br>
+        Muchos animales esperan tener un hogar para siempre al cual llenar de alegría, y el que elijas para ser tu compañero te va a elegir a vos desde el primer momento. 
+        <br>ANIMATE A ABRIR TU CORAZÓN Y CONOCERLOS
+
+      </p>
+
+      <div class="adopcion-imagen d-flex justify-content-center w-50">
+        <img src="/multimedia/images/imagen-adopcion.webp" alt="">
+      </div>
+    </section>
+
+    <section class="box-tenencia-responsable mt-5">
+      <div class=" box box2 bg-success">TENENCIA RESPONSABLE DE TU ANIMAL 🡫</div>
+      <div class="box box1">
+          <ul class="fs-5">
+            <li>Proveele alimento y agua potable todos los días.</li>
+            <li>Vacunas y atención veterinaria cuando lo requiera.</li>
+            <li>Higiene periódica del lugar que habita.</li>
+            <li><b>Esterilizalo. Es GRATIS.</b> <em>Es la manera de prevenir fugas, enfermedades (como el TVT entre otras) y ayudás a combatir la sobrepoblación.</em></li>
+            <li>Identificación del animal por medio de collar y/o medallita con nombre y teléfono de contacto. <em>En caso de que se escape o se pierda, será su boleto de vuelta a casa.</em> </li>
+            <li>No dejes que deambule solo por la calle.</li>
+            <li>Esparcimiento. <em>No lo tengas atado o encerrado.</em> Jugá con él o sacalo a pasear.</li>
+          </ul>
+    </div>
+    </section>
+
+    <!-- Seccion con links que llevan a otras tres secciones, debajo de cada imagen iria un boton grande que lleva a la seccion PERRO o GATO -->
+    <div style="display: inline" id="container">
+      <h2 class="fs-4" style="display: inline;">QUIERO ADOPTAR UN:</h2>
+
+      <div class="mt-5 " id="container-perro-gato">
+        <div class="d-flex justify-content-evenly" id="perro-gato">
+          <div class="display-animal d-flex-column">
+            <img class="d-flex" src="/multimedia/images/perro.jpg" alt="PERRO" width="250"
+            />
+            <p class="d-flex justify-content-center"> <a href="perro.html"><button class="boton-animal mt-3">PERRO </button></a></p>
+          </div>
+          <div class="display-animal d-flex-column">
+            <img class="d-flex" src="/multimedia/images/gatito.jpg" alt="GATO" width="291"
+            />
+            <p class="d-flex justify-content-center"> <a href="gato.html"><button class="boton-animal mt-3">GATO </button></a></p>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <!-- seccion viejitos -->
+    <div class="viejitos">
+      <h2 class="fs-3 p-1 d-block bg-warning text-center" id="viejitos-header">ADOPTÁ A UN SUPER ABUELITO&#128071;</h2>
+      <!-- link a seccion animales viejitos -->
+      <div class="mt-3" id="vieji-seccion">
+          <div id="vieji">
+            <img 
+            src="/multimedia/images/abuelito.jpg"
+            alt="Perro adulto mayor"
+            width="300">
+          <p > <a href="viejitos.html"><button class="boton-animal mt-3" id="boton-viejitos">ACÁ </button></a></p>
+          </div>
+      </div>
+      
+    </div>
+
+    <!-- footer con links de interes -->
+    <footer class="footer mt-5">
+      <span class="fw-light" id="links-interes">&#128062;Links de interés&#128062;</span>
+      <ul class="links">
+        <li>
+          Esterilizá a tus mascotas&#128073;
+          <a href="https://www.comodoroweb.gob.ar/ords/f?p=152:29:::NO:RP,29::"
+            >ACÁ</a
+          >
+        </li>
+        <li>
+          <a href="https://es-la.facebook.com/groups/157279491591669/"
+            >Animales perdidos/encontrados en Comodoro Rivadavia y Rada Tilly</a
+          >
+        </li>
+        <li>
+          Si querés ayudar y te gustan los AMIGURUMIS podés entrar &#128073;<a
+            href="https://www.instagram.com/virginiamigurumisok/"
+            >ACÁ &#10024;</a
+          >
+        </li>
+        <li>
+          &#128054;Chany y su pandilla
+          <a href="https://www.instagram.com/chanyeolstagram._/?hl=es-la"
+            >EN INSTAGRAM</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/patitasdelsurcr/?hl=es"
+            >PATITAS DEL SUR&#128062;</a
+          >
+        </li>
+        <li>
+          <a href="https://es-la.facebook.com/groups/255790618216037/"
+            >En FACEBOOK&#128054;&#128008;</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+ 
